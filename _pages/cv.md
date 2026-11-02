@@ -11,7 +11,13 @@ redirect_from:
 
 Education
 ======
-* Harbin Institute of Technology (哈尔滨工业大学), Harbin, China
+* 2026 – 2029, M.Eng. in Control Engineering, Harbin Institute of Technology (哈尔滨工业大学)
+* 2022 – 2026, B.E. in Automation (自动化类), Harbin Institute of Technology (哈尔滨工业大学)
+
+Experience
+======
+* Intern, [Lumos Robotics](https://www.lumosbot.tech/) (鹿明机器人), Shenzhen
+* Intern, [Beijing Innovation Center of Humanoid Robotics](https://www.x-humanoid.com/) (北京人形机器人创新中心), Beijing
 
 Research Interests
 ======

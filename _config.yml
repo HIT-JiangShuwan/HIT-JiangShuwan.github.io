@@ -12,10 +12,10 @@ site_theme               : "air" # The available themes options are "default", "
 title                    : "Shuwan Jiang"
 title_separator          : "-"
 name                     : &name "Shuwan Jiang"
-description              : &description "Academic homepage of Shuwan Jiang (Shawn), Harbin Institute of Technology."
+description              : &description "Academic homepage of Shuwan Jiang (Shawn), master's student in Control Engineering at Harbin Institute of Technology."
 url                      : https://hit-jiangshuwan.github.io
-baseurl                  : "/introduce.github.io"
-repository               : "HIT-JiangShuwan/introduce.github.io"
+baseurl                  : ""
+repository               : "HIT-JiangShuwan/HIT-JiangShuwan.github.io"
 
 # Site Author - The following control what appear as part of the author content on the side bar.
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Shuwan Jiang"
   pronouns         : # example: "she/her"
-  bio              : "Student at HIT. Vision-language navigation, embodied AI, and multimodal agents."
+  bio              : "M.Eng. student in Control Engineering at HIT. Vision-language navigation, embodied AI, and multimodal agents."
   location         : "Harbin, China"
   employer         : "Harbin Institute of Technology"
   uri              : # URL

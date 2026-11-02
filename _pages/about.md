@@ -7,9 +7,9 @@ redirect_from:
   - /about.html
 ---
 
-I am **Shuwan Jiang** (Shawn), a student at [Harbin Institute of Technology](https://en.hit.edu.cn/) (哈尔滨工业大学). I work on **vision-and-language navigation**, **embodied AI**, and **multimodal agents**, with an interest in making robots follow natural-language instructions in real indoor environments.
+I am **Shuwan Jiang** (Shawn), a master's student in **Control Engineering** at [Harbin Institute of Technology](https://en.hit.edu.cn/) (2026–2029). I received my B.E. in **Automation** (自动化类) from HIT (2022–2026). I work on **vision-and-language navigation**, **embodied AI**, and **multimodal agents**. I interned at [Lumos Robotics](https://www.lumosbot.tech/) (鹿明机器人) in Shenzhen and the [Beijing Innovation Center of Humanoid Robotics](https://www.x-humanoid.com/) (北京人形机器人创新中心).
 
-我是哈尔滨工业大学的学生，研究方向为视觉语言导航（VLN）、具身智能与多模态智能体，关注如何让机器人根据自然语言指令在真实室内场景中完成导航。
+我是哈尔滨工业大学控制工程硕士研究生（2026–2029）。本科就读于哈工大自动化类（2022–2026）。研究方向为视觉语言导航（VLN）、具身智能与多模态智能体。曾在深圳鹿明机器人和北京人形机器人创新中心实习。
 
 News
 ======
