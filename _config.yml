@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "air" # The available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Shuwan Jiang"
+title                    : "Xin Yin"
 title_separator          : "-"
-name                     : &name "Shuwan Jiang"
-description              : &description "Academic homepage of Shuwan Jiang (Shawn), master's student in Control Engineering at Harbin Institute of Technology."
+name                     : &name "Xin Yin"
+description              : &description "Academic homepage of Xin Yin (Shawn, 尹鑫), master's student in Control Engineering at Harbin Institute of Technology."
 url                      : https://hit-jiangshuwan.github.io
 baseurl                  : ""
 repository               : "HIT-JiangShuwan/HIT-JiangShuwan.github.io"
@@ -22,10 +22,10 @@ repository               : "HIT-JiangShuwan/HIT-JiangShuwan.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.png"
-  name             : "Shuwan Jiang"
+  avatar           : "profile.jpg"
+  name             : "Xin Yin"
   pronouns         : # example: "she/her"
-  bio              : "姜舒婉 · M.Eng. student in Control Engineering at HIT. Vision-language navigation, embodied AI, and multimodal agents."
+  bio              : "尹鑫 · 江书晚 · M.Eng. student in Control Engineering at HIT. Vision-language navigation, embodied AI, and multimodal agents."
   location         : "Harbin, China"
   employer         : "Harbin Institute of Technology"
   uri              : # URL
@@ -143,7 +143,7 @@ facebook:
   app_id                 :
   publisher              :
 og_image                 : og-image.png   # Social media default site image (lives in /images/)
-og_description           : "Academic homepage of Shuwan Jiang, Harbin Institute of Technology."
+og_description           : "Academic homepage of Xin Yin (Shawn, 尹鑫), Harbin Institute of Technology."
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:

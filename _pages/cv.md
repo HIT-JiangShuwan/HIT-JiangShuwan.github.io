@@ -9,6 +9,10 @@ redirect_from:
 
 {% include base_path %}
 
+Xin Yin (Shawn)
+======
+尹鑫 · 江书晚
+
 Education
 ======
 * 2026–2029, M.Eng. in Control Engineering, Harbin Institute of Technology (哈尔滨工业大学)
