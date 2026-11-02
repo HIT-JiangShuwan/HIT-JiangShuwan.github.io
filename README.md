@@ -1,6 +1,6 @@
 # Xin Yin — Academic Homepage
 
-Personal academic website of **Xin Yin** (Shawn, 尹鑫, also known as 江书晚), master's student in Control Engineering at Harbin Institute of Technology.
+Personal academic website of **Xin Yin** (Shawn, 尹鑫), master's student in Control Engineering at Harbin Institute of Technology.
 
 Live site: <https://hit-jiangshuwan.github.io/>
 

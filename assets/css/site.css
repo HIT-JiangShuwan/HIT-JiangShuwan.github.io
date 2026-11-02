@@ -103,9 +103,13 @@ a:hover { text-decoration-color: var(--ink); }
   padding: 0 var(--pad);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   gap: 1.5rem;
   position: relative;
+}
+
+.header-inner:has(.site-nav) .brand {
+  margin-left: auto;
 }
 
 .brand {
@@ -182,7 +186,7 @@ a:hover { text-decoration-color: var(--ink); }
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
+  justify-content: flex-start;
   gap: 0.15rem 1.35rem;
 }
 
@@ -349,6 +353,13 @@ h2 {
   align-items: center;
 }
 
+.row-logo .when { padding-top: 0; }
+
+.row-org {
+  grid-template-columns: 7rem max-content minmax(0, 1fr);
+  column-gap: 1.35rem;
+}
+
 .when {
   margin: 0;
   padding-top: 0.15rem;
@@ -393,6 +404,19 @@ h3 a:hover { text-decoration: underline; text-decoration-color: var(--ink); }
   width: 12.4rem;
   max-width: 100%;
   height: auto;
+}
+
+.org-mark {
+  height: 1.8rem;
+  min-height: 1.8rem;
+}
+
+.org-mark img {
+  height: 1.8rem;
+  width: auto;
+  max-width: 100%;
+  object-fit: contain;
+  object-position: left center;
 }
 
 .prose { max-width: 42rem; }
@@ -467,7 +491,8 @@ h3 a:hover { text-decoration: underline; text-decoration-color: var(--ink); }
   .section { padding-top: 2.85rem; }
 
   .row,
-  .row-logo {
+  .row-logo,
+  .row-org {
     grid-template-columns: 1fr;
     gap: 0.2rem;
     align-items: start;

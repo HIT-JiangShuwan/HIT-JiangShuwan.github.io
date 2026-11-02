@@ -11,7 +11,7 @@ redirect_from:
 
 Xin Yin (Shawn)
 ======
-尹鑫 · 江书晚
+尹鑫
 
 Education
 ======
@@ -20,8 +20,8 @@ Education
 
 Experience
 ======
-* Intern, [Lumos Robotics](https://www.lumosbot.tech/) (鹿明机器人), Shenzhen
 * Intern, [Beijing Innovation Center of Humanoid Robotics](https://www.x-humanoid.com/) (北京人形机器人创新中心), Beijing
+* Intern, [Lumos Robotics](https://www.lumosbot.tech/) (鹿明机器人), Shenzhen
 
 Research Interests
 ======
