@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shuwan Jiang | Harbin Institute of Technology</title>
+  <meta name="description" content="Academic homepage of Shuwan Jiang (Shawn), Harbin Institute of Technology.">
+  <meta name="author" content="Shuwan Jiang">
+  <link rel="icon" href="images/favicon.ico">
+  <style>
+    :root {
+      --ink: #1c1917;
+      --muted: #57534e;
+      --line: #e7e5e4;
+      --bg: #fafaf9;
+      --card: #ffffff;
+      --accent: #1d4ed8;
+      --accent-soft: #eff6ff;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.7;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .wrap {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 48px 24px 72px;
+      display: grid;
+      grid-template-columns: 250px 1fr;
+      gap: 48px;
+    }
+    .sidebar {
+      position: sticky;
+      top: 32px;
+      align-self: start;
+    }
+    .avatar {
+      width: 148px;
+      height: 148px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 1px solid var(--line);
+      background: #d6d3d1;
+      display: grid;
+      place-items: center;
+      font-size: 42px;
+      font-weight: 650;
+      color: #fff;
+      letter-spacing: 1px;
+    }
+    .avatar img {
+      width: 148px;
+      height: 148px;
+      border-radius: 50%;
+      object-fit: cover;
+      display: block;
+    }
+    h1 {
+      font-size: 28px;
+      line-height: 1.25;
+      margin: 18px 0 4px;
+    }
+    .en-name { color: var(--muted); font-size: 15px; margin: 0 0 12px; }
+    .bio {
+      color: var(--muted);
+      font-size: 14px;
+      margin: 0 0 18px;
+    }
+    .meta {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+      color: var(--muted);
+    }
+    .meta li { margin: 6px 0; }
+    .nav {
+      margin-top: 22px;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .nav a {
+      color: var(--ink);
+      font-size: 14px;
+    }
+    main section {
+      margin-bottom: 36px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: 16px;
+      padding: 24px 26px;
+    }
+    h2 {
+      margin: 0 0 12px;
+      font-size: 20px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--line);
+    }
+    h3 { margin: 16px 0 8px; font-size: 16px; }
+    p { margin: 0 0 12px; }
+    ul { margin: 0; padding-left: 18px; }
+    li { margin: 6px 0; }
+    .news-date { color: var(--muted); font-variant-numeric: tabular-nums; }
+    .project {
+      padding: 12px 0;
+      border-top: 1px solid var(--line);
+    }
+    .project:first-of-type { border-top: none; padding-top: 0; }
+    .tag {
+      display: inline-block;
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-radius: 999px;
+      padding: 1px 8px;
+      font-size: 12px;
+      margin-right: 6px;
+    }
+    footer {
+      grid-column: 1 / -1;
+      color: var(--muted);
+      font-size: 13px;
+      text-align: center;
+      padding-top: 8px;
+    }
+    @media (max-width: 800px) {
+      .wrap {
+        grid-template-columns: 1fr;
+        padding-top: 28px;
+        gap: 24px;
+      }
+      .sidebar { position: static; text-align: center; }
+      .avatar, .avatar img { margin: 0 auto; }
+      .nav { flex-direction: row; flex-wrap: wrap; justify-content: center; gap: 12px; }
+      .meta { display: inline-block; text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <aside class="sidebar">
+      <div class="avatar" aria-hidden="true">SJ</div>
+      <h1>Shuwan Jiang</h1>
+      <p class="en-name">Shawn</p>
+      <p class="bio">Harbin Institute of Technology<br>哈尔滨工业大学</p>
+      <ul class="meta">
+        <li>Harbin, China</li>
+        <li><a href="mailto:2192923376@qq.com">2192923376@qq.com</a></li>
+        <li><a href="https://github.com/HIT-JiangShuwan">GitHub</a></li>
+      </ul>
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#projects">Projects</a>
+        <a href="#publications">Publications</a>
+        <a href="#cv">CV</a>
+      </nav>
+    </aside>
+
+    <main>
+      <section id="about">
+        <h2>About / 简介</h2>
+        <p>
+          I am <strong>Shuwan Jiang</strong> (Shawn), a student at
+          <a href="https://en.hit.edu.cn/">Harbin Institute of Technology</a>.
+          My research interests include vision-and-language navigation, embodied AI,
+          and multimodal agents, with a focus on robots that follow natural-language
+          instructions in indoor environments.
+        </p>
+        <p>
+          我是哈尔滨工业大学的学生，研究方向为视觉语言导航（VLN）、具身智能与多模态智能体，
+          关注如何让机器人根据自然语言指令在室内场景中完成导航。
+        </p>
+      </section>
+
+      <section id="news">
+        <h2>News</h2>
+        <ul>
+          <li><span class="news-date">2026-11</span> — Personal academic homepage is online.</li>
+        </ul>
+      </section>
+
+      <section id="research">
+        <h2>Research Interests</h2>
+        <ul>
+          <li>Vision-and-Language Navigation (VLN / VLN-CE)</li>
+          <li>Embodied agents and multimodal large language models</li>
+          <li>Robot navigation in simulation and the real world</li>
+        </ul>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+          <h3>Embodied Vision-Language Navigation</h3>
+          <p>
+            <span class="tag">VLN</span>
+            <span class="tag">Embodied AI</span>
+            <span class="tag">Ongoing</span>
+          </p>
+          <p>
+            Ongoing work on instruction-following agents that navigate indoor
+            environments from RGB observations and natural language, including
+            Habitat / VLN-CE (R2R, RxR) and sim-to-real robot navigation.
+          </p>
+        </div>
+      </section>
+
+      <section id="publications">
+        <h2>Publications</h2>
+        <p>Selected papers will be listed here as they become available.</p>
+      </section>
+
+      <section id="cv">
+        <h2>CV</h2>
+        <h3>Education</h3>
+        <ul>
+          <li>Harbin Institute of Technology (哈尔滨工业大学), Harbin, China</li>
+        </ul>
+        <h3>Skills</h3>
+        <ul>
+          <li>Python, PyTorch</li>
+          <li>Vision-language models</li>
+          <li>Navigation simulation (Habitat / VLN-CE)</li>
+        </ul>
+        <h3>Contact</h3>
+        <ul>
+          <li>Email: <a href="mailto:2192923376@qq.com">2192923376@qq.com</a></li>
+          <li>GitHub: <a href="https://github.com/HIT-JiangShuwan">HIT-JiangShuwan</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      Shuwan Jiang · Harbin Institute of Technology
+    </footer>
+  </div>
+</body>
+</html>
