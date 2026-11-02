@@ -2,7 +2,7 @@
 
 Personal academic website of **Shuwan Jiang** (Shawn), Harbin Institute of Technology.
 
-Live site: <https://hit-jiangshuwan.github.io/academicpages.github.io/>
+Live site: <https://hit-jiangshuwan.github.io/>
 
 Built from the [Academic Pages](https://github.com/academicpages/academicpages.github.io) Jekyll template and hosted on GitHub Pages.
 
