@@ -1,19 +1,18 @@
 # Shuwan Jiang — Academic Homepage
 
-Personal academic website of **Shuwan Jiang** (Shawn), master's student in Control Engineering at Harbin Institute of Technology.
+Personal academic website of **Shuwan Jiang** (Shawn, 姜舒婉), master's student in Control Engineering at Harbin Institute of Technology.
 
 Live site: <https://hit-jiangshuwan.github.io/>
 
-Built from the [Academic Pages](https://github.com/academicpages/academicpages.github.io) template and hosted on GitHub Pages.
+The published homepage is the static `index.html` (GitHub Pages serves the repository as-is because of `.nojekyll`). Jekyll source for publications, projects, and the CV remains in the repo for later use.
 
 ## Edit the site
 
-The live homepage is `index.html`. Jekyll source files are kept for later use.
-
 | What | Where |
 | --- | --- |
-| Homepage | `index.html` |
+| Homepage | `index.html`, `assets/css/site.css` |
 | Name, email, sidebar | `_config.yml` |
+| About / CV source | `_pages/about.md`, `_pages/cv.md` |
 | Publications | `_publications/` |
 | Projects | `_portfolio/` |
-| Profile photo | `images/profile.png` |
+| Fonts | `assets/fonts/` (OFL, see `assets/fonts/OFL.txt`) |

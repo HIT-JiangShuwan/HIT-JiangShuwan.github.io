@@ -48,6 +48,18 @@
   font-size: $type-size-4;
 }
 
+#main:not(:has(.sidebar)) {
+  > .page,
+  > .archive {
+    @include breakpoint($large) {
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      float: none;
+    }
+  }
+}
+
 .page__content {
 
   h2 {

@@ -2,7 +2,7 @@
 layout: archive
 title: "CV"
 permalink: /cv/
-author_profile: true
+author_profile: false
 redirect_from:
   - /resume
 ---
@@ -11,8 +11,8 @@ redirect_from:
 
 Education
 ======
-* 2026 – 2029, M.Eng. in Control Engineering, Harbin Institute of Technology (哈尔滨工业大学)
-* 2022 – 2026, B.E. in Automation (自动化类), Harbin Institute of Technology (哈尔滨工业大学)
+* 2026–2029, M.Eng. in Control Engineering, Harbin Institute of Technology (哈尔滨工业大学)
+* 2022–2026, B.E. in Automation (自动化类), Harbin Institute of Technology (哈尔滨工业大学)
 
 Experience
 ======
@@ -21,7 +21,7 @@ Experience
 
 Research Interests
 ======
-* Vision-and-Language Navigation
+* Vision-and-Language Navigation (VLN / VLN-CE)
 * Embodied AI and multimodal agents
 * Robot navigation
 
